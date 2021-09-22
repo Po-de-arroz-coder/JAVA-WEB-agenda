@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"com.model","l":"Contato"},{"p":"com.controller","l":"Controller"},{"p":"com.model","l":"DAO"}];updateSearchResults();

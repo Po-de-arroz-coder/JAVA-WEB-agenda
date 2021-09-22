@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Novo Contato</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="imagens/phone-icon.ico">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+	</head>
+	<body>
+		<h1>Criar novo contato:</h1>
+		<form action="insert" name="fmContato" class="w3-container" method="get">
+			<table>
+				<tr>
+					<td>
+						<label class="w3-text-blue ">Digite seu nome</label>
+						<br>
+						<input type="text" name="Nome" placeholder="Nome" class="w3-input w3-border w3-round-large" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="w3-text-blue">Digite seu telefone</label>
+						<input type="text" name="Telefone" placeholder="Telefone" class="w3-input w3-border w3-round-large" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="w3-text-blue">Digite seu email</label>
+						<input type="text" name="Email" placeholder="Email" class="w3-input w3-border w3-round-large" required>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<input type="submit" value="Adicionar" class="w3-button w3-blue w3-round-large">
+			
+		</form>
+		
+	</body>
+</html>
